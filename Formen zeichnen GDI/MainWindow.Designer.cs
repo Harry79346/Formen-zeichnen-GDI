@@ -53,7 +53,6 @@
             // panel_Canvas
             // 
             this.panel_Canvas.BackColor = System.Drawing.Color.White;
-            this.panel_Canvas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_Canvas.Location = new System.Drawing.Point(12, 12);
             this.panel_Canvas.Name = "panel_Canvas";
             this.panel_Canvas.Size = new System.Drawing.Size(300, 300);
@@ -118,11 +117,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(148, 60);
+            this.label4.Location = new System.Drawing.Point(147, 60);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 13);
+            this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 4;
-            this.label4.Text = "klein";
+            this.label4.Text = "groß";
             // 
             // label3
             // 
@@ -136,11 +135,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 60);
+            this.label2.Location = new System.Drawing.Point(8, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "groß";
+            this.label2.Text = "klein";
             // 
             // trackBar_Size
             // 
@@ -154,16 +153,17 @@
             // 
             // button_Draw
             // 
-            this.button_Draw.Location = new System.Drawing.Point(438, 219);
+            this.button_Draw.Location = new System.Drawing.Point(332, 219);
             this.button_Draw.Name = "button_Draw";
             this.button_Draw.Size = new System.Drawing.Size(75, 23);
             this.button_Draw.TabIndex = 4;
             this.button_Draw.Text = "Zeichnen";
             this.button_Draw.UseVisualStyleBackColor = true;
+            this.button_Draw.Click += new System.EventHandler(this.button_Draw_Click);
             // 
             // button_Reset
             // 
-            this.button_Reset.Location = new System.Drawing.Point(332, 219);
+            this.button_Reset.Location = new System.Drawing.Point(438, 219);
             this.button_Reset.Name = "button_Reset";
             this.button_Reset.Size = new System.Drawing.Size(75, 23);
             this.button_Reset.TabIndex = 4;
